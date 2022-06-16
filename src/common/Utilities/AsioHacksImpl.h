@@ -18,15 +18,15 @@
 #ifndef AsioHacksImpl_h__
 #define AsioHacksImpl_h__
 
-#include <boost/asio/strand.hpp>
-
-namespace Trinity
-{
-    class AsioStrand : public boost::asio::io_service::strand
-    {
-    public:
-        explicit AsioStrand(boost::asio::io_service& io_service) : boost::asio::io_service::strand(io_service) { }
-    };
-}
+//#include <boost/asio/strand.hpp>
+//
+//namespace Trinity
+//{
+//    class AsioStrand : public boost::asio::io_service::strand
+//    {
+//    public:
+//        explicit AsioStrand(boost::asio::io_service& io_service) : boost::asio::io_service::strand(io_service) { }
+//    };
+//}
 
 #endif // AsioHacksImpl_h__
